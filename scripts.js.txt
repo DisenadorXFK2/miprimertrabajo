@@ -1,0 +1,21 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const faqHeaders = document.querySelectorAll(".faq h3");
+    faqHeaders.forEach(header => {
+        header.addEventListener("click", function() {
+            const content = this.nextElementSibling;
+            content.style.display = content.style.display === "block" ? "none" : "block";
+        });
+    });
+
+    function updateDateTime() {
+        const date = new Date();
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const dateString = date.toLocaleDateString(undefined, options);
+        const timeString = date.toLocaleTimeString();
+        const location = "Redwood City, CA";
+        document.getElementById('datetime-location').innerHTML = `${dateString} | ${timeString} | ${location}`;
+    }
+
+    setInterval(updateDateTime, 1000);
+    updateDateTime();
+});

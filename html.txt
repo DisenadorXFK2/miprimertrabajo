@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Tax Solutions - Effortless Tax Preparation and Bookkeeping Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <img src="https://via.placeholder.com/200" alt="Smart Tax Solutions Logo" class="logo">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#about">About Us</a>
+            <a href="#faqs">FAQs</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+        <div id="datetime-location"></div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Smart Tax Solutions</h1>
+        <p>Effortless Tax Preparation and Bookkeeping Services</p>
+        <button onclick="location.href='#contact'">Get Started Now</button>
+        <img src="https://via.placeholder.com/600x400" alt="Hero Image">
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="section">
+        <h2>Why Choose Us?</h2>
+        <p>Experienced and Certified Professionals</p>
+        <p>Personalized Service for Individuals and Businesses</p>
+        <p>Secure and Confidential Handling of Your Information</p>
+        <p>Fast Turnaround Times</p>
+        <p>Competitive Pricing</p>
+        <img src="https://via.placeholder.com/600x400" alt="Introduction Image">
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <img src="https://via.placeholder.com/300x200" alt="Individual Tax Preparation">
+                <h3>Individual Tax Preparation</h3>
+                <p>Comprehensive tax filing for individuals, ensuring maximum refunds and compliance with all regulations.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://via.placeholder.com/300x200" alt="Business Tax Preparation">
+                <h3>Business Tax Preparation</h3>
+                <p>Expert tax preparation for small to medium-sized businesses, including deductions and credits.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://via.placeholder.com/300x200" alt="Tax Planning">
+                <h3>Tax Planning</h3>
+                <p>Strategic tax planning to minimize liabilities and optimize your financial situation.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://via.placeholder.com/300x200" alt="Audit Support">
+                <h3>Audit Support</h3>
+                <p>Professional support and representation in case of an IRS audit.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://via.placeholder.com/300x200" alt="Bookkeeping Services">
+                <h3>Bookkeeping Services</h3>
+                <p>Reliable and accurate bookkeeping services to keep your finances in order and help your business thrive.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bookkeeping Services Section -->
+    <section class="section" id="bookkeeping">
+        <h2>Bookkeeping Services</h2>
+        <p>Our bookkeeping services ensure that your financial records are accurate and up-to-date. We offer tailored solutions for businesses of all sizes to help you stay organized and compliant.</p>
+        <div class="service-cards">
+            <div class="service-card">
+                <h3>Basic Plan</h3>
+                <p>Ideal for small businesses and startups</p>
+                <ul>
+                    <li>Monthly bookkeeping</li>
+                    <li>Financial statement preparation</li>
+                    <li>Bank reconciliation</li>
+                </ul>
+                <p>Starting at $[Price]</p>
+            </div>
+            <div class="service-card">
+                <h3>Standard Plan</h3>
+                <p>Perfect for growing businesses</p>
+                <ul>
+                    <li>Includes all Basic Plan features</li>
+                    <li>Payroll processing</li>
+                    <li>Tax preparation support</li>
+                </ul>
+                <p>Starting at $[Price]</p>
+            </div>
+            <div class="service-card">
+                <h3>Premium Plan</h3>
+                <p>Comprehensive service for established businesses</p>
+                <ul>
+                    <li>Includes all Standard Plan features</li>
+                    <li>Inventory management</li>
+                    <li>Budgeting and forecasting</li>
+                </ul>
+                <p>Contact us for pricing</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section" id="pricing">
+        <h2>Transparent Pricing</h2>
+        <table class="pricing-table">
+            <tr>
+                <th>Service</th>
+                <th>Basic</th>
+                <th>Standard</th>
+                <th>Premium</th>
+            </tr>
+            <tr>
+                <td>Individual Tax Preparation</td>
+                <td>$X</td>
+                <td>$Y</td>
+                <td>$Z</td>
+            </tr>
+            <tr>
+                <td>Business Tax Preparation</td>
+                <td>$X</td>
+                <td>$Y</td>
+                <td>Contact Us</td>
+            </tr>
+            <tr>
+                <td>Bookkeeping Services</td>
+                <td>$[Price]</td>
+                <td>$[Price]</td>
+                <td>Contact Us</td>
+            </tr>
+        </table>
+        <p>Prices are starting rates. Final pricing will be provided after an initial consultation.</p>
+        <img src="https://via.placeholder.com/600x400" alt="Pricing Image">
+    </section>
+
+    <!-- About Us Section -->
+    <section class="section" id="about">
+        <h2>About Smart Tax Solutions</h2>
+        <img src="https://via.placeholder.com/600x400" alt="About Us" style="max-width: 100%;">
+        <p>Smart Tax Solutions, based in Redwood City, CA, has a rich history of providing top-notch tax and bookkeeping services. Our mission is to offer personalized, efficient, and accurate financial solutions to our clients.</p>
+        <div class="team">
+            <h3>Meet Our Team</h3>
+            <img src="https://via.placeholder.com/600x400" alt="Our Team" style="max-width: 100%;">
+            <p>Our team of certified professionals is dedicated to helping you achieve your financial goals.</p>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section class="section" id="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <img src="https://via.placeholder.com/600x400" alt="FAQs Image">
+        <div class="faq">
+            <h3>What documents do I need for tax preparation?</h3>
+            <p>You will need your W-2 forms, 1099 forms, receipts for deductions, and other relevant financial documents.</p>
+            <h3>How long does the tax preparation process take?</h3>
+            <p>The time varies depending on the complexity of your taxes. We strive to complete the process as quickly and accurately as possible.</p>
+            <h3>What if I receive a notice from the IRS?</h3>
+            <p>We offer audit support and can assist you in responding to any IRS notices.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to schedule a consultation, please contact us:</p>
+        <div class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Smart Tax Solutions. All rights reserved.</p>
+        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </footer>
+
+    <!-- Google Map Section -->
+    <section class="section map">
+        <h2>Our Location</h2>
+        <p>Redwood City, CA</p>
+        <img src="https://via.placeholder.com/600x400" alt="Map Image">
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
